@@ -37,7 +37,7 @@
     [self.window addSubview:view];
     [view release];
     NSLog(@"11111111111111");
-    NSLog(@"dev123123");
+    NSLog(@"ds");
 }
 - (void)applicationWillResignActive:(UIApplication *)application
 {
