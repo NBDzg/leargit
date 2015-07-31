@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCE9C07E1A6CF7F0005D117E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE9C07D1A6CF7F0005D117E /* Foundation.framework */; };
+		BCE9C0801A6CF7F0005D117E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE9C07F1A6CF7F0005D117E /* CoreGraphics.framework */; };
+		BCE9C0821A6CF7F0005D117E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE9C0811A6CF7F0005D117E /* UIKit.framework */; };
+		BCE9C0881A6CF7F0005D117E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCE9C0861A6CF7F0005D117E /* InfoPlist.strings */; };
+		BCE9C08A1A6CF7F0005D117E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE9C0891A6CF7F0005D117E /* main.m */; };
+		BCE9C08E1A6CF7F0005D117E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE9C08D1A6CF7F0005D117E /* AppDelegate.m */; };
+		BCE9C0901A6CF7F0005D117E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE9C08F1A6CF7F0005D117E /* Images.xcassets */; };
+		BCE9C0971A6CF7F0005D117E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE9C0961A6CF7F0005D117E /* XCTest.framework */; };
+		BCE9C0981A6CF7F0005D117E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE9C07D1A6CF7F0005D117E /* Foundation.framework */; };
+		BCE9C0991A6CF7F0005D117E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE9C0811A6CF7F0005D117E /* UIKit.framework */; };
+		BCE9C0A11A6CF7F0005D117E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCE9C09F1A6CF7F0005D117E /* InfoPlist.strings */; };
+		BCE9C0A31A6CF7F0005D117E /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE9C0A21A6CF7F0005D117E /* ____Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCE9C09A1A6CF7F0005D117E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCE9C0721A6CF7F0005D117E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCE9C0791A6CF7F0005D117E;
+			remoteInfo = "九九乘法";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCE9C07A1A6CF7F0005D117E /* 九九乘法.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "九九乘法.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE9C07D1A6CF7F0005D117E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BCE9C07F1A6CF7F0005D117E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BCE9C0811A6CF7F0005D117E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BCE9C0851A6CF7F0005D117E /* 九九乘法-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "九九乘法-Info.plist"; sourceTree = "<group>"; };
+		BCE9C0871A6CF7F0005D117E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCE9C0891A6CF7F0005D117E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCE9C08B1A6CF7F0005D117E /* 九九乘法-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "九九乘法-Prefix.pch"; sourceTree = "<group>"; };
+		BCE9C08C1A6CF7F0005D117E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCE9C08D1A6CF7F0005D117E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCE9C08F1A6CF7F0005D117E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BCE9C0951A6CF7F0005D117E /* 九九乘法Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "九九乘法Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE9C0961A6CF7F0005D117E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BCE9C09E1A6CF7F0005D117E /* 九九乘法Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "九九乘法Tests-Info.plist"; sourceTree = "<group>"; };
+		BCE9C0A01A6CF7F0005D117E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCE9C0A21A6CF7F0005D117E /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCE9C0771A6CF7F0005D117E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE9C0801A6CF7F0005D117E /* CoreGraphics.framework in Frameworks */,
+				BCE9C0821A6CF7F0005D117E /* UIKit.framework in Frameworks */,
+				BCE9C07E1A6CF7F0005D117E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE9C0921A6CF7F0005D117E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE9C0971A6CF7F0005D117E /* XCTest.framework in Frameworks */,
+				BCE9C0991A6CF7F0005D117E /* UIKit.framework in Frameworks */,
+				BCE9C0981A6CF7F0005D117E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCE9C0711A6CF7F0005D117E = {
+			isa = PBXGroup;
+			children = (
+				BCE9C0831A6CF7F0005D117E /* 九九乘法 */,
+				BCE9C09C1A6CF7F0005D117E /* 九九乘法Tests */,
+				BCE9C07C1A6CF7F0005D117E /* Frameworks */,
+				BCE9C07B1A6CF7F0005D117E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCE9C07B1A6CF7F0005D117E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCE9C07A1A6CF7F0005D117E /* 九九乘法.app */,
+				BCE9C0951A6CF7F0005D117E /* 九九乘法Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCE9C07C1A6CF7F0005D117E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCE9C07D1A6CF7F0005D117E /* Foundation.framework */,
+				BCE9C07F1A6CF7F0005D117E /* CoreGraphics.framework */,
+				BCE9C0811A6CF7F0005D117E /* UIKit.framework */,
+				BCE9C0961A6CF7F0005D117E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCE9C0831A6CF7F0005D117E /* 九九乘法 */ = {
+			isa = PBXGroup;
+			children = (
+				BCE9C08C1A6CF7F0005D117E /* AppDelegate.h */,
+				BCE9C08D1A6CF7F0005D117E /* AppDelegate.m */,
+				BCE9C08F1A6CF7F0005D117E /* Images.xcassets */,
+				BCE9C0841A6CF7F0005D117E /* Supporting Files */,
+			);
+			path = "九九乘法";
+			sourceTree = "<group>";
+		};
+		BCE9C0841A6CF7F0005D117E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCE9C0851A6CF7F0005D117E /* 九九乘法-Info.plist */,
+				BCE9C0861A6CF7F0005D117E /* InfoPlist.strings */,
+				BCE9C0891A6CF7F0005D117E /* main.m */,
+				BCE9C08B1A6CF7F0005D117E /* 九九乘法-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCE9C09C1A6CF7F0005D117E /* 九九乘法Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BCE9C0A21A6CF7F0005D117E /* ____Tests.m */,
+				BCE9C09D1A6CF7F0005D117E /* Supporting Files */,
+			);
+			path = "九九乘法Tests";
+			sourceTree = "<group>";
+		};
+		BCE9C09D1A6CF7F0005D117E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCE9C09E1A6CF7F0005D117E /* 九九乘法Tests-Info.plist */,
+				BCE9C09F1A6CF7F0005D117E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCE9C0791A6CF7F0005D117E /* 九九乘法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCE9C0A61A6CF7F0005D117E /* Build configuration list for PBXNativeTarget "九九乘法" */;
+			buildPhases = (
+				BCE9C0761A6CF7F0005D117E /* Sources */,
+				BCE9C0771A6CF7F0005D117E /* Frameworks */,
+				BCE9C0781A6CF7F0005D117E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "九九乘法";
+			productName = "九九乘法";
+			productReference = BCE9C07A1A6CF7F0005D117E /* 九九乘法.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCE9C0941A6CF7F0005D117E /* 九九乘法Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCE9C0A91A6CF7F0005D117E /* Build configuration list for PBXNativeTarget "九九乘法Tests" */;
+			buildPhases = (
+				BCE9C0911A6CF7F0005D117E /* Sources */,
+				BCE9C0921A6CF7F0005D117E /* Frameworks */,
+				BCE9C0931A6CF7F0005D117E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCE9C09B1A6CF7F0005D117E /* PBXTargetDependency */,
+			);
+			name = "九九乘法Tests";
+			productName = "九九乘法Tests";
+			productReference = BCE9C0951A6CF7F0005D117E /* 九九乘法Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCE9C0721A6CF7F0005D117E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					BCE9C0941A6CF7F0005D117E = {
+						TestTargetID = BCE9C0791A6CF7F0005D117E;
+					};
+				};
+			};
+			buildConfigurationList = BCE9C0751A6CF7F0005D117E /* Build configuration list for PBXProject "九九乘法" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BCE9C0711A6CF7F0005D117E;
+			productRefGroup = BCE9C07B1A6CF7F0005D117E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCE9C0791A6CF7F0005D117E /* 九九乘法 */,
+				BCE9C0941A6CF7F0005D117E /* 九九乘法Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCE9C0781A6CF7F0005D117E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE9C0881A6CF7F0005D117E /* InfoPlist.strings in Resources */,
+				BCE9C0901A6CF7F0005D117E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE9C0931A6CF7F0005D117E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE9C0A11A6CF7F0005D117E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCE9C0761A6CF7F0005D117E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE9C08E1A6CF7F0005D117E /* AppDelegate.m in Sources */,
+				BCE9C08A1A6CF7F0005D117E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE9C0911A6CF7F0005D117E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE9C0A31A6CF7F0005D117E /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCE9C09B1A6CF7F0005D117E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCE9C0791A6CF7F0005D117E /* 九九乘法 */;
+			targetProxy = BCE9C09A1A6CF7F0005D117E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCE9C0861A6CF7F0005D117E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCE9C0871A6CF7F0005D117E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BCE9C09F1A6CF7F0005D117E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCE9C0A01A6CF7F0005D117E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCE9C0A41A6CF7F0005D117E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BCE9C0A51A6CF7F0005D117E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCE9C0A71A6CF7F0005D117E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "九九乘法/九九乘法-Prefix.pch";
+				INFOPLIST_FILE = "九九乘法/九九乘法-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BCE9C0A81A6CF7F0005D117E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "九九乘法/九九乘法-Prefix.pch";
+				INFOPLIST_FILE = "九九乘法/九九乘法-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BCE9C0AA1A6CF7F0005D117E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/九九乘法.app/九九乘法";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "九九乘法/九九乘法-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "九九乘法Tests/九九乘法Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BCE9C0AB1A6CF7F0005D117E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/九九乘法.app/九九乘法";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "九九乘法/九九乘法-Prefix.pch";
+				INFOPLIST_FILE = "九九乘法Tests/九九乘法Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCE9C0751A6CF7F0005D117E /* Build configuration list for PBXProject "九九乘法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE9C0A41A6CF7F0005D117E /* Debug */,
+				BCE9C0A51A6CF7F0005D117E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCE9C0A61A6CF7F0005D117E /* Build configuration list for PBXNativeTarget "九九乘法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE9C0A71A6CF7F0005D117E /* Debug */,
+				BCE9C0A81A6CF7F0005D117E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCE9C0A91A6CF7F0005D117E /* Build configuration list for PBXNativeTarget "九九乘法Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE9C0AA1A6CF7F0005D117E /* Debug */,
+				BCE9C0AB1A6CF7F0005D117E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCE9C0721A6CF7F0005D117E /* Project object */;
+}
